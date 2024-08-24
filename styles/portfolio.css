@@ -1,4 +1,43 @@
+
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: coral;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: coral;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+}
 /* navbar styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
 }
