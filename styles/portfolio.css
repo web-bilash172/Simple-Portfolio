@@ -1,13 +1,14 @@
-
 /* common shared styles */
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: coral;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: coral;
     border: 0;
@@ -16,28 +17,96 @@ body {
     color: white;
     padding: 10px 20px;
 }
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+.section-description{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
 /* navbar styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: black;
     font-size: 45px;
     font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 
 }
+
 nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
+}
+
+/* header related styles */
+.header {
+    background-color: rgb(246, 235, 235);
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-picture {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.banner-greeting {
+    font-size: 40px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section style  */
+
+/* about section style  */
+
+.about {
+    padding: 100px;
+    background-color: rgb(253, 232, 232);
+    border-radius: 10px;
+    margin: 130px 0;
 }
