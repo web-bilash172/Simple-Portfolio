@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .nav-title {
@@ -49,6 +49,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
+    
 }
 
 nav li {
@@ -101,7 +102,10 @@ nav a {
 }
 
 /* main section style  */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style  */
 
 .about {
@@ -109,4 +113,11 @@ nav a {
     background-color: rgb(253, 232, 232);
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
